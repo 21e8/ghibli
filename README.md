@@ -11,9 +11,9 @@ yarn start
 
 # Image upload to CMS
 
-- Currently there is a content management system hosted at http://173.249.12.47:8080;
+- Currently there is a content management system hosted at https://b0910e2e8a31.ngrok.io;
 
-- Before you start you will need to have an account there (talk to 0xAlice) and an API key which can be found at http://173.249.12.47:8080/restadmin/index
+- Before you start you will need to have an account there (talk to 0xAlice) and an API key which can be found at https://b0910e2e8a31.ngrok.io/restadmin/index
 
 - Create a `.env` file and add `COCKPIT_API_KEY=<your key>`
 
@@ -21,7 +21,7 @@ yarn start
 
 - Run the script with  node ./bin/post-images.js /path/to/images
 
-- NodeJS will start uploading images in chucks of 20 and they should start appearing at http://173.249.12.47:8080/assetsmanager
+- NodeJS will start uploading images in chucks of 20 and they should start appearing at https://b0910e2e8a31.ngrok.io/assetsmanager
 
 # pentacle-ui
 
